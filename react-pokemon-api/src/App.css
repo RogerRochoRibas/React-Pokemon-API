@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 html {
-  background: black;
+  background: rgb(255, 255, 255);
   color: white;
   text-align: center;
   min-height: 100vh;
@@ -78,31 +84,46 @@ header {
 }
 
 .pokemonList {
-  display:flex;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  justify-content: center;
+  max-width: 100vw;
 }
 .pokemonList > li {
   background-color: rgb(24, 24, 24);
   color: rgb(199, 199, 199);
-  height: 160px;
-  width: 160px;
-  margin:10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  border: solid 2px black;
+  margin: 10px;
 }
-.pokemon > h3,.pokemon > h4 {
-  margin:2px
+.pokemon > h3,
+.pokemon > h4 {
+  margin: 2px;
 }
 
 .pokemon-card {
-  margin: 10px auto;
-  height:140px;
-  width:140px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  height: 190px;
+  width: 180px;
 }
 
-.small-image {
-  height: 80px;
-  width: auto;
-  right:0px;
+.pokemonName {
+  text-transform: capitalize;
+  margin: 10px;
 }
+
+.pokemonImage {
+  height: 100px;
+  width: 100px;
+}
+
 
 input[type="text"]:focus {
   background-color: #2e2e2e;
@@ -162,7 +183,7 @@ td {
 }
 
 .tableSpace {
-  height:15px;
+  height: 15px;
   background-color: transparent;
 }
 
