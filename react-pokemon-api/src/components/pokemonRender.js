@@ -3,13 +3,13 @@ export const PokemonRender = (props) => {
   function pokemonDisplay() {
     let pokemonList = [];
     pokemonList = props.currentPokemon;
-    if (pokemonList.length == 0) {
+    if (pokemonList.length === 0) {
       pokemonList = props.pokemon
     }
-    let pokemonMounted = pokemonList.map((element, index) => {
+    let pokemonMounted = pokemonList.map((element) => {
       return (
-        <li key={index}>
-          <Link to={`/pokemon/${parseInt(index) + 1}`}>
+        <li key={element.id}>
+          <Link to={`/pokemon/${element.id}`}>
             <div className="pokemon-card">
               <h4 className="pokemonName">{element.name}</h4>
               <img
@@ -17,7 +17,7 @@ export const PokemonRender = (props) => {
                 alt={element.name}
                 src={element.sprites.front_default}
               />
-              <p className="pokemonNumber">#{index + 1}</p>
+              <p className="pokemonNumber">#{element.id}</p>
             </div>
           </Link>
         </li>

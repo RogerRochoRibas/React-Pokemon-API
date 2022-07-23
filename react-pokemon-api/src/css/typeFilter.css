@@ -1,0 +1,79 @@
+.filterBar {
+  max-width: 900px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.type-btn {
+  font-size: 15px;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
+  width: 6em;
+  text-align: center;
+  display: inline-block;
+  border: 0;
+  padding: 0.2em 0.2em;
+  margin: 0.2em 0.3em;
+  border-radius: 0.4em;
+  color:white;
+  cursor:pointer
+
+}
+
+#normal {
+  background-color: #959977;
+}
+#fire {
+  background-color: #EE8130;
+}
+#fighting {
+  background-color: #C22E28;
+}
+#water {
+  background-color: #6390F0;
+}
+#poison {
+  background-color: #a040a0;
+}
+#electric {
+  background-color: #f3c923;
+}
+#ground {
+  background-color: #cfae53;
+}
+#grass {
+  background-color: #7AC74C;
+}
+#flying {
+  background-color: #a890f0;
+}
+#ice {
+  background-color: #96D9D6;
+}
+#bug {
+  background-color: #a8b820;
+}
+#psychic {
+  background-color: #F95587;
+}
+#rock {
+  background-color: #b8a038;
+}
+#dragon {
+  background-color: #7038f8;
+}
+#ghost {
+  background-color: #705898;
+}
+#dark {
+  background-color: #705848;
+}
+#steel {
+  background-color: #b8b8d0;
+}
+#fairy {
+  background-color: #ffb7fa;
+}

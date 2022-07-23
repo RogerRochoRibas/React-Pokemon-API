@@ -2,18 +2,17 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import logo from "../src/images/pokemon-title.png";
 import { useEffect, useState } from "react";
-import "./App.css";
+import "./css/App.css";
+import "./css/typeFilter.css";
 
 function App() {
   const [pokemon, setPokemon] = useState([]);
 
   const getPokemon = async () => {
     try {
-      //1154
-      let url = `https://pokeapi.co/api/v2/pokemon?limit=151`;
+      let url = `https://pokeapi.co/api/v2/pokemon?limit=251`;
       const response = await fetch(url);
       const data = await response.json();
-      console.log(data);
       return data;
     } catch (err) {}
   };
@@ -33,6 +32,7 @@ function App() {
         return await getPokemonData(pokemon.url);
       });
       const results = await Promise.all(promises);
+      console.log(results)
       setPokemon(results);
     } catch (err) {}
   };
