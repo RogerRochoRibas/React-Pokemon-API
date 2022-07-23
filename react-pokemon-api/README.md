@@ -1,70 +1,178 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/RogerRochoRibas/React-Pokemon-API">
+    <img src="/src/images/pokemon-icon.png" alt="Logo" width="80" height="80">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h3 align="center">Pokedex React</h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <p align="center">
+  This project consumes the PokéApi to give information about the first two generations of pokemon.
+    <br />
+    <a href="https://github.com/RogerRochoRibas/React-Pokemon-API"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/RogerRochoRibas/React-Pokemon-API/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/RogerRochoRibas/React-Pokemon-API/issues">Request Feature</a>
+  </p>
+</div>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm run eject`
+### Using the Filter and the Sliders
+![Demo](https://user-images.githubusercontent.com/98771907/174484065-2673c6cb-5e42-4c30-8558-1c55f296b329.gif)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Modifying the Sliders
+![Demo](https://user-images.githubusercontent.com/98771907/174484068-40accb3d-628d-4ce7-ba55-8d570466f894.gif)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Register & Log In
+![Demo](https://user-images.githubusercontent.com/98771907/174487322-2328e927-f15d-4e88-8b7f-81c1382ac31c.gif)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Save your Tracklist
+![Demo](https://user-images.githubusercontent.com/98771907/174487516-c002a17f-7da5-41e1-b291-30f37781136a.gif)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Built With
 
-### Code Splitting
+* [React.js](https://reactjs.org/)
+* [React Router](https://reactrouter.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- GETTING STARTED -->
+## Getting Started
 
-### Making a Progressive Web App
+To get a local copy up and running follow these simple example steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!--### Prerequisites
 
-### Advanced Configuration
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+-->
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Clone the repo
+   ```sh
+   git clone https://github.com/RogerRochoRibas/React-Pokemon-API.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install react-router-dom@6
+   ```
+3. Start the project
+   ```sh
+   npm start
+   ```
 
-### Deployment
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- ROADMAP -->
+## Roadmap
+
+- [ ] Adding the moves the pokemon learn in the Details page.
+- [ ] Increasing the number of pokemon on the list without losing loading speed.
+- [ ] Adding suggestions when a search does not give results.
+
+See the [open issues](https://github.com/RogerRochoRibas/React-Pokemon-API/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Roger Rocho - [LinkedIn](https://es.linkedin.com/in/rogerrochoribas) - rogerrochoribas@gmail.com
+
+Project Link: [https://github.com/RogerRochoRibas/React-Pokemon-API](https://github.com/RogerRochoRibas/React-Pokemon-API)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [PokéApi](https://pokeapi.co)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/RogerRochoRibas/MusicProject.svg?style=for-the-badge
+[contributors-url]: https://github.com/RogerRochoRibas/MusicProject/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/RogerRochoRibas/MusicProject.svg?style=for-the-badge
+[forks-url]: https://github.com/RogerRochoRibas/MusicProject/network/members
+[stars-shield]: https://img.shields.io/github/stars/RogerRochoRibas/MusicProject.svg?style=for-the-badge
+[stars-url]: https://github.com/RogerRochoRibas/MusicProject/stargazers
+[issues-shield]: https://img.shields.io/github/issues/RogerRochoRibas/MusicProject.svg?style=for-the-badge
+[issues-url]: https://github.com/RogerRochoRibas/MusicProject/issues
+[license-shield]: https://img.shields.io/github/license/RogerRochoRibas/MusicProject.svg?style=for-the-badge
+[license-url]: https://github.com/RogerRochoRibas/MusicProject/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/rogerrochoribas
+[product-screenshot]: images/screenshot.png
