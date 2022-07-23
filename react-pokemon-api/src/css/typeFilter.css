@@ -7,8 +7,8 @@
   margin-bottom: 20px;
 }
 
-.type-btn {
-  font-size: 15px;
+.type {
+  font-size: 20px;
   font-family: "Trebuchet MS";
   font-weight: bold;
   width: 6em;
@@ -18,22 +18,21 @@
   padding: 0.2em 0.2em;
   margin: 0.2em 0.3em;
   border-radius: 0.4em;
-  color:white;
-  cursor:pointer
-
+  color: white;
+  text-transform: capitalize;
 }
 
 #normal {
   background-color: #959977;
 }
 #fire {
-  background-color: #EE8130;
+  background-color: #ee8130;
 }
 #fighting {
-  background-color: #C22E28;
+  background-color: #c22e28;
 }
 #water {
-  background-color: #6390F0;
+  background-color: #6390f0;
 }
 #poison {
   background-color: #a040a0;
@@ -45,19 +44,19 @@
   background-color: #cfae53;
 }
 #grass {
-  background-color: #7AC74C;
+  background-color: #7ac74c;
 }
 #flying {
   background-color: #a890f0;
 }
 #ice {
-  background-color: #96D9D6;
+  background-color: #96d9d6;
 }
 #bug {
   background-color: #a8b820;
 }
 #psychic {
-  background-color: #F95587;
+  background-color: #f95587;
 }
 #rock {
   background-color: #b8a038;

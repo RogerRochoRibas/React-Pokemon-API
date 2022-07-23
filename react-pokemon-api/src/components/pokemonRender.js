@@ -4,7 +4,7 @@ export const PokemonRender = (props) => {
     let pokemonList = [];
     pokemonList = props.currentPokemon;
     if (pokemonList.length === 0) {
-      pokemonList = props.pokemon
+      pokemonList = props.pokemon;
     }
     let pokemonMounted = pokemonList.map((element) => {
       return (
@@ -15,7 +15,7 @@ export const PokemonRender = (props) => {
               <img
                 className="pokemonImage"
                 alt={element.name}
-                src={element.sprites.front_default}
+                src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${element.id}.png`}
               />
               <p className="pokemonNumber">#{element.id}</p>
             </div>

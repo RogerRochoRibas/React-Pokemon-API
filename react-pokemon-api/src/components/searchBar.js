@@ -13,13 +13,14 @@ export const SearchBar = (props) => {
   }
 
   useEffect(() => {
-    props.setCurrentPokemon(props.pokemon)
+    props.setCurrentPokemon(props.pokemon);
   }, []);
 
   return (
     <div className="searchBar">
       <input
         type="text"
+        spellCheck="false"
         placeholder="Search Pokémon"
         onChange={(e) => filterPokemon(e.target.value)}
       ></input>

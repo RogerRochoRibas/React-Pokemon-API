@@ -1,0 +1,43 @@
+.pokemonDetails {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pokemonDetails h2 {
+  font-family: "Flexo-Demi", arial, sans-serif;
+  color: #313131;
+  text-transform: none;
+  font-size: 3em;
+  margin-bottom: 5px;
+}
+
+.pokemonDetails h2 span {
+  text-transform: capitalize;
+  font-size: 1.4em;
+}
+
+.pokemonDetailsTypes {
+  flex-direction: row;
+}
+
+.detailsInfoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsInfo {
+  padding: 10px;
+  margin: 15px 5px;
+  border-radius: 10%;
+  background-color: #ffffff;
+  border: solid 2px black;
+  width: 150px;
+}
+
+.ability {
+  text-transform: capitalize;
+}

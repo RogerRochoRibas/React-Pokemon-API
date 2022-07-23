@@ -1,9 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Home from "./pages/home";
 import logo from "../src/images/pokemon-title.png";
 import { useEffect, useState } from "react";
 import "./css/App.css";
+import "./css/pokemonDisplay.css";
 import "./css/typeFilter.css";
+import "./css/pokemonDetails.css";
+import { PokemonDetails } from "./pages/pokemonDetails";
 
 function App() {
   const [pokemon, setPokemon] = useState([]);
@@ -32,7 +36,7 @@ function App() {
         return await getPokemonData(pokemon.url);
       });
       const results = await Promise.all(promises);
-      console.log(results)
+      console.log(results);
       setPokemon(results);
     } catch (err) {}
   };
@@ -44,10 +48,16 @@ function App() {
   return (
     <Router>
       <header>
-        <img alt="logo" id="logo" src={logo} />
+        <Link to={`/`}>
+          <img alt="logo" id="logo" src={logo} />
+        </Link>
       </header>
       <Routes>
         <Route path="/" element={<Home pokemon={pokemon} />} />
+        <Route
+          path="/pokemon/:id"
+          element={<PokemonDetails pokemon={pokemon} />}
+        />
       </Routes>
     </Router>
   );

@@ -26,7 +26,7 @@ export const FilterType = (props) => {
   return (
     <div className="filterBar">
       <button
-        className="type-btn"
+        className="type clickable"
         id="normal"
         onClick={() => {
           filterTypes("normal");
@@ -35,7 +35,7 @@ export const FilterType = (props) => {
         Normal
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="fire"
         onClick={() => {
           filterTypes("fire");
@@ -44,7 +44,7 @@ export const FilterType = (props) => {
         Fire
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="water"
         onClick={() => {
           filterTypes("water");
@@ -53,7 +53,7 @@ export const FilterType = (props) => {
         Water
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="grass"
         onClick={() => {
           filterTypes("grass");
@@ -62,7 +62,7 @@ export const FilterType = (props) => {
         Grass
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="electric"
         onClick={() => {
           filterTypes("electric");
@@ -71,7 +71,7 @@ export const FilterType = (props) => {
         Electric
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="ice"
         onClick={() => {
           filterTypes("ice");
@@ -80,7 +80,7 @@ export const FilterType = (props) => {
         Ice
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="fighting"
         onClick={() => {
           filterTypes("fighting");
@@ -89,7 +89,7 @@ export const FilterType = (props) => {
         Fighting
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="poison"
         onClick={() => {
           filterTypes("poison");
@@ -98,7 +98,7 @@ export const FilterType = (props) => {
         Poison
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="ground"
         onClick={() => {
           filterTypes("ground");
@@ -107,7 +107,7 @@ export const FilterType = (props) => {
         Ground
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="flying"
         onClick={() => {
           filterTypes("flying");
@@ -116,7 +116,7 @@ export const FilterType = (props) => {
         Flying
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="psychic"
         onClick={() => {
           filterTypes("psychic");
@@ -125,7 +125,7 @@ export const FilterType = (props) => {
         Psychic
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="bug"
         onClick={() => {
           filterTypes("bug");
@@ -134,7 +134,7 @@ export const FilterType = (props) => {
         Bug
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="rock"
         onClick={() => {
           filterTypes("rock");
@@ -143,7 +143,7 @@ export const FilterType = (props) => {
         Rock
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="ghost"
         onClick={() => {
           filterTypes("ghost");
@@ -152,7 +152,7 @@ export const FilterType = (props) => {
         Ghost
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="dragon"
         onClick={() => {
           filterTypes("dragon");
@@ -161,7 +161,7 @@ export const FilterType = (props) => {
         Dragon
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="dark"
         onClick={() => {
           filterTypes("dark");
@@ -170,7 +170,7 @@ export const FilterType = (props) => {
         Dark
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="steel"
         onClick={() => {
           filterTypes("steel");
@@ -179,7 +179,7 @@ export const FilterType = (props) => {
         Steel
       </button>
       <button
-        className="type-btn"
+        className="type clickable"
         id="fairy"
         onClick={() => {
           filterTypes("fairy");
