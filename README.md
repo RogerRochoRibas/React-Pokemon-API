@@ -52,19 +52,17 @@
 
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
-### Using the Filter and the Sliders
-![Demo](https://user-images.githubusercontent.com/98771907/174484065-2673c6cb-5e42-4c30-8558-1c55f296b329.gif)
+### Using the Type Filter
+![Filters](https://user-images.githubusercontent.com/98771907/180623305-81ee8b72-97cb-4c34-8d82-0e1f8cf7737f.gif)
 
-### Modifying the Sliders
-![Demo](https://user-images.githubusercontent.com/98771907/174484068-40accb3d-628d-4ce7-ba55-8d570466f894.gif)
+### Searching by Name with the Search Bar
+![search-bar](https://user-images.githubusercontent.com/98771907/180623391-453d5e28-5654-4d92-b23f-b6156a873c08.gif)
 
-### Register & Log In
-![Demo](https://user-images.githubusercontent.com/98771907/174487322-2328e927-f15d-4e88-8b7f-81c1382ac31c.gif)
-
-### Save your Tracklist
-![Demo](https://user-images.githubusercontent.com/98771907/174487516-c002a17f-7da5-41e1-b291-30f37781136a.gif)
+### Looking at specific Pokemon Details
+![details](https://user-images.githubusercontent.com/98771907/180623523-7517239b-4a7c-4213-9eee-5007664f5254.gif)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
