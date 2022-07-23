@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/RogerRochoRibas/React-Pokemon-API">
-    <img src="/src/images/pokemon-icon.png" alt="Logo" width="80" height="80">
+    <img src="/public/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Pokedex React</h3>
