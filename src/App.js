@@ -53,7 +53,7 @@ function App() {
         </Link>
       </header>
       <Routes>
-        <Route path="/" element={<Home pokemon={pokemon} />} />
+        <Route path="" element={<Home pokemon={pokemon} />} />
         <Route
           path="/pokemon/:id"
           element={<PokemonDetails pokemon={pokemon} />}
