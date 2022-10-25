@@ -20,6 +20,9 @@
   <p align="center">
   This project consumes the PokéApi to give information about the first two generations of pokemon.
     <br />
+    <a href="https://rogerrochoribas.github.io/React-Pokemon-API/"><strong>Try the App »</strong></a>
+    <br />
+    <br />
     <a href="https://github.com/RogerRochoRibas/React-Pokemon-API"><strong>Explore the docs »</strong></a>
     <br />
     <br />
