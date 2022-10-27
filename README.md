@@ -31,6 +31,8 @@
 
 
 
+
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -50,19 +52,13 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-### Using the Type Filter
-![Filters](https://user-images.githubusercontent.com/98771907/180623305-81ee8b72-97cb-4c34-8d82-0e1f8cf7737f.gif)
+### Using the App
 
-### Searching by Name with the Search Bar
-![search-bar](https://user-images.githubusercontent.com/98771907/180623391-453d5e28-5654-4d92-b23f-b6156a873c08.gif)
-
-### Looking at specific Pokemon Details
-![details](https://user-images.githubusercontent.com/98771907/180623523-7517239b-4a7c-4213-9eee-5007664f5254.gif)
+https://user-images.githubusercontent.com/98771907/198391103-bf84f26e-494d-4126-8029-4b708a376182.mp4
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
