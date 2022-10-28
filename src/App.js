@@ -48,12 +48,12 @@ function App() {
   return (
     <Router>
       <header>
-        <Link to={`/react-pokemon-api`}>
+        <Link to={`/React-Pokemon-API`}>
           <img alt="logo" id="logo" src={logo} />
         </Link>
       </header>
       <Routes>
-        <Route path="/react-pokemon-api" element={<Home pokemon={pokemon} />} />
+        <Route path="/React-Pokemon-API" element={<Home pokemon={pokemon} />} />
         <Route
           path="/pokemon/:id"
           element={<PokemonDetails pokemon={pokemon} />}
