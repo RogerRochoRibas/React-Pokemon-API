@@ -1,7 +1,7 @@
 {
   "name": "react-pokemon-api",
   "version": "0.1.0",
-  "homepage": "https://RogerRochoRibas.github.io/React-Pokemon-API",
+  "homepage": "https://RogerRochoRibas.github.io/react-pokemon-api",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
